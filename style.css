@@ -1,0 +1,37 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* root variables */
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+     --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+     --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+/* styles for body */
+body {
+    /* background-color: var(--dark-cyan); */
+    height: 100%;
+}
+
+.top-bg--img, 
+.bottom-bg--img {
+    position: absolute;
+}
+
+.top-bg--img {
+    width: 100%;
+    top: -50%;
+    left: -50%;
+}
+
+.bottom-bg--img {
+    bottom: 0;
+    right: 0;
+}
